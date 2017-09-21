@@ -1,0 +1,70 @@
+.refine-srch {
+	background-color: white;
+	padding: 15px 30px;
+	box-shadow: 2px 2px 3px gray;
+	margin-bottom: 20px;
+}
+
+.refine-srch h4 {
+	font-size: 18px;
+	color: black;
+}
+
+.refine-lst label span {
+	background-color: white;
+	border: 1px solid #b83445;
+	color: black;
+	font-size: 15px;
+	padding: 10px;
+	width: 100px;
+	position: relative;
+	top: -10px;
+}
+
+.refine-lst input:checked + span {
+    background-color:#b83445;
+    color:white;
+}
+
+.refine-lst {
+	display: flex;
+	justify-content: space-around;
+}
+
+.cat-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.cat-list .cat-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: white;
+	box-shadow: 2px 2px 3px gray;
+	width: 32%;
+	height: 300px;
+	margin-bottom: 20px;
+}
+
+.cat-item:hover {
+	box-shadow: 4px 4px 4px gray;
+	text-decoration-color: #b83445;
+}
+
+.item-capa {
+	max-width: 90%;
+	max-height: 72%;
+	margin-top: 25px;
+	box-shadow: -1px -1px 1px gray;
+}
+
+.cat-list a {
+	color: black;
+} 
+
+.cat-list .cat-item h4 {
+	margin: auto 0px;
+	text-align: center;
+}

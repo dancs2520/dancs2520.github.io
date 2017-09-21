@@ -1,0 +1,410 @@
+html {
+    font-size: 14px;
+}
+
+body {
+	background-image: url(../images/bg.gif);
+	background-repeat: repeat;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.4;
+}
+
+.links-topo {
+	display: flex;
+	justify-content: flex-end;
+	margin: 15px 40px 15px 0;
+}
+
+.links-topo li {
+	padding: 0 10px;
+	border-left: 1px solid #afafaf;
+}
+
+.links-topo li:first-child {
+	border-left: none;
+}
+
+.links-topo {
+	font-weight: 600;
+}
+
+.links-topo a {
+	color: black;
+}
+
+.links-topo a:visited {
+	color: black;
+}
+
+.links-topo a:hover {
+	color: #b83445;
+}
+
+.header-logo {
+	display: flex;
+	height: 100px;
+	padding-left: 70px;
+	padding-right: 85px;
+	background-color: white;
+}
+
+.main-logo {
+	width: 360px;
+	position: relative;
+	top: -42px;
+	box-shadow: 3px 3px 3px #d9d9d9;
+	z-index: 5;
+}
+
+.logo {
+	width: 100%;
+	box-shadow: 3px 3px 3px #d9d9d9;
+}
+
+.header-logo a {
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.header-logo .social {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding-right: 0;
+}
+
+.header-logo .social a {
+	color: #cccccc;
+	padding-right: 25px; 
+}
+
+.header-logo .social > a > i:focus , .header-logo .social > a > i:hover {
+	color: #b83445;
+	transform: scale(1.1);
+}
+
+.header-logo .navbar-loja a {
+	height: 100%;
+	min-width: 225px;
+	display: flex;
+	color: #b83445;
+	padding: 35px;
+}
+
+.header-logo .navbar-loja > a:focus , .header-logo .navbar-loja > a:hover {
+	background-color: #b83445;
+	color: white;
+	text-shadow: 1px 1px 3px #000000;
+}
+
+.dropdown-menu > li > a:focus , .dropdown-menu > li > a:hover {
+	text-shadow: 1px 1px 3px #000000;
+	color: white;
+	background-color: #b83445;
+}
+
+i {
+	padding-right: 5px;
+}
+
+.header-mainNav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 29px 72px 0 72px;
+	padding: 0;
+}
+
+.header-mainNav .navbar-nav {
+	background-color: white;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header-mainNav .navbar-nav li {
+	height: 100%;
+}
+
+.header-mainNav .navbar-nav a {
+	color: black;
+	font-size: 16px;
+	font-weight: 600;
+	padding-left: 25px;
+	padding-right: 25px;
+	white-space: nowrap;
+}
+
+.header-mainNav .navbar-nav > li > a:focus , .header-mainNav .navbar-nav > li > a:hover {
+	background-color: #b83445;
+	color: white;
+	text-shadow: 1px 1px 3px #000000;
+}
+
+.main-site .container {
+
+	margin-bottom: 30px;
+	
+
+}
+
+h2 {
+	margin-top: 0px;
+	padding-bottom: 10px;
+	font-size: 28px;
+	text-shadow: 1px 1px 2px gray;
+}
+
+h3 {
+	margin-top: 8px;
+	padding-bottom: 10px;
+	font-size: 20px;
+	text-shadow: 1px 1px 2px gray;
+}
+
+.titulo {
+    border-bottom: 4px solid #b83445;
+	margin-bottom: 20px;
+}
+
+form {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.search-container {
+	width: 95%;
+	display: block;
+	position: relative;
+	margin: 10px 0px;
+}
+
+input {
+	width: 90%;
+	padding-left: 1px;
+	padding-right: 10px;
+	border-color: #b83445;
+	border-width: 0px;
+}
+
+.search-button {
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	border-radius: 5px;
+	background-color: #b83445;
+	color: white;
+	border-width: 0px;
+}
+
+.carousel {
+	padding-top: 10px;
+	height: 245px;
+}
+
+.carousel img {
+	height: 100% ;
+	width: 100%;
+}
+
+.banner {
+	transition: transform .5s;
+
+}
+
+.banner:hover {
+	transform: scale(1.04);
+}
+
+footer {
+	margin-top: 70px;
+	margin-bottom: 40px;
+
+}
+
+footer .container {
+	background-color: white;
+	border-radius: 20px;
+	padding: 25px 30px;
+}
+
+footer .col-md-4 {
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+footer span {
+	color: #b83445;
+	text-shadow: 0.5px 0px 1px gray;
+}
+
+footer a {
+	color: black;
+}
+
+footer a:hover {
+	color: black;
+}
+
+.direitos {
+	display: flex;
+	justify-content: center;
+	border-top: 1px solid #afafaf;
+	margin-top: 20px;
+	padding-top: 20px;
+}
+
+.categoria-livro {
+	background-color: white;
+	border-radius: 10px;
+	margin-top: 20px;
+	padding: 30px 30px;
+	display: flex;
+	justify-content: space-around;
+	box-shadow: 2px 2px 3px gray;
+	width: 100%;
+}
+
+.categoria-livro h6 {
+	font-weight: 600;
+	font-size: 22px;
+	color: #b83445;
+	text-shadow: 0.8px 0.8px 1px gray;
+	margin-top: 0;
+}
+
+.categoria-livro h4 {
+	font-weight: 600;
+	font-size: 24px;
+	color: #b83445;
+	text-shadow: 1px 1px 1px gray;
+	margin-top: 0;
+}
+
+.categoria-livro h5 {
+	font-weight: 600;
+	color: #b83445;
+}
+
+.categoria-livro a {
+	color: #b83445;
+}
+
+.categoria-livro .span-cat {
+	font-weight: 600;
+	color: black;
+}
+
+.categoria-capa {
+	width: 35%;
+	display: flex;
+	justify-content: center;	
+}
+
+.categoria-livro img {
+	max-width: 100%;
+	max-height: 230px;
+}
+
+.livro-info {
+	width: 60%;
+	padding-left: 10px;
+	margin: auto 0px;
+}
+
+.secao {
+	margin-bottom: 60px;
+}
+
+.mobile {
+	display: none;
+}
+
+.generic-block {
+	background-color: white;
+	border-radius: 5px;
+	margin-top: 10px;
+	padding: 20px 30px 30px 30px;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 2px 2px 3px gray;
+}
+
+.sede-fotos {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.foto {
+	width: 32%;
+	height: 32%;
+}
+
+.sede-corpo {
+	text-align: justify;
+}
+.sede-corpo span {
+	font-size: 16px;
+	text-shadow: 0.2px 0.2px 0.2px gray;
+}
+
+
+/* ~925 / 925-1220 / 1220~ */
+
+@media only screen and (max-width:1220px) {
+	li.desktop {
+		display: none;
+	}
+}
+
+@media only screen and (max-width:925px) {
+	.tablet {
+		display: none;
+	}
+}
+
+@media only screen and (max-width:925px) {
+	.mobile {
+		display: block;
+	}
+
+	.header-logo {
+		flex-direction: column;
+		background-color: transparent;
+		padding: 0 10%;
+		margin-bottom: 500px;
+	}
+
+	.link-logo {
+		position: relative;
+		top: 95px;
+	}
+
+	.logo {
+		position: static;
+		width: 100%;
+		box-shadow: 0px 0px 0px #d9d9d9;
+	}
+
+	.header-logo .container {
+		background-color: white;
+		margin: 156px 0 0 0;
+		padding: 0px;
+	}
+
+	.header-logo .navbar-loja a {
+		justify-content: center;
+	}
+
+
+
+}
+
