@@ -82,3 +82,7 @@
 .destaque {
 	color: #237C6B;
 }
+
+.nopadding {
+	padding-top: 0px;
+}

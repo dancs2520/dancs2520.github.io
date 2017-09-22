@@ -10,6 +10,14 @@
 	color: black;
 }
 
+.refine-srch span {
+	padding: 10px 10px 10px 10px;
+}
+
+.refine-srch span a {
+	color: #b83445;
+}
+
 .refine-lst label span {
 	background-color: white;
 	border: 1px solid #b83445;
