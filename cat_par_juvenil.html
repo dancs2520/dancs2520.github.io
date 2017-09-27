@@ -46,7 +46,7 @@ crossorigin="anonymous"></script>
 			<ul class="nav navbar-nav">
 				<li><a href="./quem_somos.html">Quem Somos</a></li>
 				<li><a href="./catalogo.html">Nosso Catálogo</a></li>
-				<li class="dropdown">
+				<li class="dropdown desktop">
 					<a class="dropdown-toggle" data-toggle="dropdown" href="#">Nossas Coleções<span class="caret"></span></a>
     	    		<ul class="dropdown-menu">
 						<li><a href="./col_airuma.html">Coleção Airumã</a></li>
@@ -73,28 +73,27 @@ crossorigin="anonymous"></script>
 			<div class="navbar-loja"><a href="http://www.lojaeditorial25.com.br/">
 				<i class="fa fa-opencart fa-lg"></i>Loja Virtual</a>
 			</div>
-				<li class="dropdown">
-					<a class="dropdown-toggle" data-toggle="dropdown" href="#">Todas as Categorias<span class="caret"></span></a>
-    	    		<ul class="dropdown-menu">
-						<li><a href="./infantil.html">Literatura Infantil</a></li>
-						<li><a href="./par_infantil.html">Paradidáticos Infantis</a></li>
-						<li><a href="./juvenil.html">Literatura Juvenil</a></li>
-						<li><a href="./par_juvenil.html">Paradidáticos Juvenis</a></li>
-						<li><a href="./adulto.html">Literatura Adulta</a></li>
-    	 				<li><a href="./ed_infantil.html">Educação Infantil</a></li>
-    	 				<li><a href="./fundamental.html">Ensino Fundamental</a></li>
-						<li><a href="./religioso.html">Educação Religiosa</a></li>
-       		 		</ul>
-				</li>
-				<li><a href="./catalogo.html">Catálogo</a></li>
-				<li><a href="./autores.html">Autores</a></li>				
-				<li><a href="./distribuidores.html">Distribuidores</a></li>
-				<li><a href="./quem_somos.html">Quem Somos</a></li>
+			<div class="navbar-links"><a href="./quem_somos.html">
+				<i class="fa  fa-group fa-lg"></i>Quem Somos</a>
+			</div>
+			<div class="navbar-links"><a href="./catalogo.html">
+				<i class="fa fa-book fa-lg"></i>Catálogo</a>
+			</div>
+			<div class="navbar-links"><a href="./autores.html">
+				<i class="fa fa-pencil fa-lg"></i>Autores</a>
+			</div>
+			<div class="navbar-links"><a href="./distribuidores.html">
+				<i class="fa fa-truck fa-lg"></i>Distribuidores</a>
+			</div>
+			<div class="navbar-links"><a href="./precos.html">
+				<i class="fa fa-list-ol fa-lg"></i>Lista de Preços</a>
+			</div>
+			<div class="navbar-links"><a href="./fale_conosco.html">
+				<i class="fa fa-phone fa-lg"></i>Fale Conosco</a>
 			</div>
 		</div>
 	</div>
 </header>
-
 
 <div class="main-site">
 	<div class="container">
@@ -121,17 +120,24 @@ crossorigin="anonymous"></script>
 			</div>
 			<div class="col-md-3">
 				<h3 class="titulo">Busca</h3>
-				<form>
-					<div class="search-container">
-						<input placeholder="Busque livros, autores, etc..." type="text" autocomplete="off">
-						<button type="submit" class="search-button" onclick="LoadWaiting(true);"><i class="fa fa-search"></i></button>
-					</div>
-				</form>
-
+				<div>
+					<script>
+						(function() {
+							var cx = '014215200659394384203:_8m4y6fgxlm';
+							var gcse = document.createElement('script');
+							gcse.type = 'text/javascript';
+							gcse.async = true;
+							gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+							var s = document.getElementsByTagName('script')[0];
+							s.parentNode.insertBefore(gcse, s);
+						})();
+					</script>
+					<gcse:search></gcse:search>
+				</div>
 				<h3 class="titulo">Tweets Recentes</h3>
-
+					Em Breve...
 			</div>
-  	  </div>
+		</div>
 	</div>
 </div>
 
