@@ -441,12 +441,9 @@ footer a:hover {
 		text-shadow: 1px 1px 3px #000000;
 	}
 
-	.secao {
-		margin-top: 265px;
-	}
-
 	.main-site {
 		padding-top: 165px;
+		margin-top: 265px;
 	}
 
 	.categoria-livro {
