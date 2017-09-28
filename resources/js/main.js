@@ -12,6 +12,18 @@ $(document).ready(function() {
 	});
 });
 
+$(document).ready(function() {
+	$('.destaques').slick({
+		autoplay: true,
+		autoplaySpeed: 4500,
+		infinite: true,
+		arrows: false,
+		draggable: false,
+		slidesToShow: 3,
+		slidesToScroll: 1
+	});
+});
+
 function showAllItems() {
 	var x = document.getElementsByClassName("cat-item");
 	var i;

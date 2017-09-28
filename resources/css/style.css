@@ -356,6 +356,20 @@ footer a:hover {
 	text-shadow: 0.2px 0.2px 0.2px gray;
 }
 
+.destaques {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.dest-liv {
+	width: 45%;
+}
+
+.dest-liv img {
+	width: 96%;
+	max-height: 900px;
+}
 
 /* ~925 / 925-1220 / 1220~ */
 
