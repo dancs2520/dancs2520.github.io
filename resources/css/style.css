@@ -373,38 +373,103 @@ footer a:hover {
 
 @media only screen and (max-width:925px) {
 	.mobile {
-		display: block;
+		display: block;	
 	}
 
 	.header-logo {
 		flex-direction: column;
 		background-color: transparent;
-		padding: 0 10%;
+		margin-top: 15%;
 		margin-bottom: 500px;
+		padding: 0 10% 0 10%;
 	}
 
 	.link-logo {
-		position: relative;
-		top: 95px;
+		width: 100%;
+		z-index: 5;
 	}
 
 	.logo {
 		position: static;
 		width: 100%;
+		margin: 0px auto;
 		box-shadow: 0px 0px 0px #d9d9d9;
 	}
 
 	.header-logo .container {
 		background-color: white;
-		margin: 156px 0 0 0;
 		padding: 0px;
+		width: 100%;
+		margin-bottom: 5%;
 	}
 
-	.header-logo .navbar-loja a {
+	.navbar-loja {
+		margin-top: 16%;
+		z-index: 3;
+	}
+
+	.header-logo .navbar-loja a , .header-logo .navbar-links a {
 		justify-content: center;
 	}
 
+	.header-logo .navbar-links a {
+		height: 100%;
+		min-width: 225px;
+		display: flex;
+		color: #b83445;
+		padding: 35px;
+		z-index: 3;
+	}
 
+	.header-logo .navbar-links > a:focus , .header-logo .navbar-links > a:hover {
+		background-color: #b83445;
+		color: white;
+		text-shadow: 1px 1px 3px #000000;
+	}
 
+	.secao {
+		margin-top: 265px;
+	}
+
+	.main-site {
+		padding-top: 165px;
+	}
+
+	.categoria-livro {
+		padding: 30px 0px;
+	}
+
+	.livro-info {
+		padding-left: 0px;
+	}
+}
+
+.cse .gsc-control-cse, .gsc-control-cse {
+	background-color:transparent !important;
+	border: 0px !important;
+	padding: 0px !important;
+}
+
+.gsib_a {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+.gsc-control-cse .gsc-table-result {
+	font-family : inherit;
+}
+
+.gsc-control-cse .gsc-input-box {
+	height : inherit;
+}
+
+input.gsc-input,
+.gsc-input-box,
+.gsc-input-box-hover,
+.gsc-input-box-focus,
+.gsc-search-button, input.gsc-search-button-v2 {
+	box-sizing  : content-box;
+	line-height : normal;
+	margin-top  : 5px;
 }
 

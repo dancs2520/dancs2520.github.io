@@ -169,7 +169,7 @@ table {
     width: 100%;
 }
 
-td, th {
+th {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
@@ -177,4 +177,26 @@ td, th {
 
 tr:nth-child(even) {
     background-color: #dddddd;
+}
+
+@media only screen and (max-width:925px) {
+	.autores-letra {
+		width: 98%;
+		padding: 20px 20px 25px 20px;
+	}
+
+	.autores-letra h4 {
+		font-family: monospace;
+		font-size: 32px;
+		color: #b83445;
+		line-height: normal;
+	}
+
+	.autores-nomes {
+		padding-left: 5%;
+	}
+
+	.distr {
+		width: 98%;
+	}
 }
