@@ -43,7 +43,6 @@ body {
 .header-logo {
 	display: flex;
 	height: 100px;
-justify-content:space-around;
 	padding-left: 70px;
 	padding-right: 70px;
 	background-color: white;
@@ -147,10 +146,7 @@ i {
 }
 
 .main-site .container {
-
 	margin-bottom: 30px;
-	
-
 }
 
 h2 {
@@ -412,7 +408,7 @@ footer a:hover {
 	}
 
 	.header-logo .container {
-		background-color: white;
+		background-color: white !important;
 		padding: 0px;
 		width: 100%;
 		margin-bottom: 5%;
