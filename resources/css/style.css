@@ -43,9 +43,9 @@ body {
 .header-logo {
 	display: flex;
 	height: 100px;
+justify-content:space-around;
 	padding-left: 70px;
-	padding-right: 85px;
-	margin: 0px auto;
+	padding-right: 70px;
 	background-color: white;
 }
 
