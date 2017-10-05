@@ -199,4 +199,47 @@ tr:nth-child(even) {
 	.distr {
 		width: 98%;
 	}
+
+	.colecoes {
+		flex-direction: column;
+	}
+
+	.col-logo {
+		width: 50%;
+		margin: auto auto;
+	}
+
+	.colecoes span {
+    	padding-left: 0px;
+	}
+
+	.col-logo-g {
+		width: 100%;
+	}
+
+	.autor-main {
+		flex-direction: column;
+	}
+
+	.autor-bio {
+		width: 100%;
+	}
+
+	.autor-pag .autor-foto {
+		width: 100%;
+	}
+
+	.each-book img {
+		max-height: 280px;
+		max-width: 100%;
+	}
+
+	.col-capa {
+    	width: 90%;
+	}
+
+	.livro-info {
+    	width: 95%;
+    	padding-left: 0px;
+	}
 }
