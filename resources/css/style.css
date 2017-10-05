@@ -408,15 +408,20 @@ footer a:hover {
 	}
 
 	.header-logo .container {
-		background-color: white !important;
+		background-color: white;
 		padding: 0px;
 		width: 100%;
 		margin-bottom: 5%;
 	}
 
 	.navbar-loja {
+		background-color: white;
 		margin-top: 16%;
 		z-index: 3;
+	}
+
+	.header-logo .navbar-links {
+		background-color: white;
 	}
 
 	.header-logo .navbar-loja a , .header-logo .navbar-links a {
