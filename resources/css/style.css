@@ -396,8 +396,11 @@ footer a:hover {
 		flex-direction: column;
 		background-color: transparent;
 		margin-top: 15%;
-
 		padding: 0 10% 0 10%;
+	}
+
+	.header-logo a {
+		display: block;
 	}
 
 	.link-logo {
