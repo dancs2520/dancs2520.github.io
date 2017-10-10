@@ -71,6 +71,7 @@ body {
 
 .header-logo .social {
 	display: flex;
+	max-width: 25%;
 	justify-content: flex-end;
 	align-items: center;
 	padding-right: 0;
