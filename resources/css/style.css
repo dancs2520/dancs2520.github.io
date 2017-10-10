@@ -69,6 +69,10 @@ body {
 	font-weight: 600;
 }
 
+.header-logo .container {
+	max-width: 50%;
+}
+
 .header-logo .social {
 	display: flex;
 	max-width: 25%;
@@ -411,6 +415,7 @@ footer a:hover {
 	.header-logo .container {
 		background-color: white;
 		padding: 0px;
+		max-width: 100%;
 		width: 100%;
 		margin-bottom: 5%;
 	}
