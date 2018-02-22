@@ -1,0 +1,220 @@
+/* title to begin every page */ 
+.page-title {
+	border-bottom: 3px solid #e3e652;
+	text-align: center;
+	margin-top: 0px;
+	color: white;
+	padding: 30px 30px;
+	background-color: #373d5d;
+}
+
+/* generic info-box */
+.info-box {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+/* settings for the pics with overlay */
+.info-ol {
+	justify-content: center;
+}
+
+.ol-pic {
+	position: relative;
+	width: 96%;
+	height: 340px;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 25px;
+	overflow: hidden;
+	border: 3px solid #e3e652;
+}
+
+.overlay {
+	position: absolute;
+	top: 180px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 190%;
+	width: 100%;
+	opacity: 0.9;
+	transition: 1s ease; image-rendering: auto;
+	background-repeat: no-repeat;
+	background-size: 100% 710px;
+}
+
+.ol-pic:hover .overlay, .ol-pic:focus .overlay, overlay:hover, overlay:focus {
+	opacity: 0.9; 	
+	top: -160px;
+}
+
+.ol-tb {
+	width: 100%;
+	color: white;
+	padding: 30px 0px;
+	height: 100%;
+	text-align: justify;
+}
+
+.ol-text {
+	font-size: 20px;
+	margin-top: 130px;
+	color: white;
+	text-align: justify;
+	padding: 20px;
+}
+/* settings for the dark info box model */
+.info-db {
+	background-color: #373d5d;
+	margin: 30px auto 0px auto;
+	padding-bottom: 25px;
+	border: 3px solid #e3e652;
+	width: 96%;
+	justify-content: center;
+}
+
+.idb-title {
+	text-decoration: underline;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	color: white;
+}
+
+.idb-main {
+
+}
+
+.idb-main img {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.info-db a h3 {
+	text-decoration: underline;
+}
+
+.info-db h3, .idb-main h3 {
+	margin-top: 25px;
+	text-align: center;
+	width: 100%;
+	color: white;
+	padding: 0px 15px;
+}
+
+.idb-main h3 {
+	text-align: justify;
+}
+
+/* Settings for the especialidades page */
+.each-esp {
+	margin-top: 15px;
+	width: 100%;
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: justify;
+	min-height: 160px;
+}
+
+.each-esp div {
+	padding: 25px  15px;
+}
+
+.credits {
+	width: 100%;
+	text-align: right;
+	font-size: 12px;
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+	.ol-text {
+		font-size: 24px;
+	}
+	.ol-tb {
+		padding: 35px 0px;
+	}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.info-ol {
+		justify-content: space-between;
+	}
+	.ol-pic {
+		width: 49%;
+		height: 350px;
+	}
+
+	.ol-tb {
+		padding: 25px 0px;
+	}
+
+	.ol-text {
+		font-size: 22px;
+	}
+
+	.info-db {
+		width: 100%;
+	}
+
+	.idb-main {
+		display: flex;
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+
+	.idb-main div {
+		width: 48%;
+	}
+
+	.idb-main img {
+		width: 55%;
+		height: 55%;
+	}
+
+	.idb-main h3 {
+		padding: 0px 0px 0px 20px;
+		margin: auto;
+		font-size: 26px;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.ol-tb {
+		padding: 30px 0px;
+	}
+
+	.ol-text {
+		font-size: 26px;
+	}
+
+	.idb-main img {
+		width: 40%;
+		height: 40%;
+	}
+
+	.idb-main h3 {
+		padding: 0px 0px 0px 20px;
+		margin: auto;
+	}
+
+	.each-esp {
+		width: 49%;
+	}
+}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+
+
+}
