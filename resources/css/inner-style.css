@@ -119,7 +119,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	text-align: justify;
+	text-align: left;
 	min-height: 160px;
 }
 
@@ -132,6 +132,19 @@
 	text-align: right;
 	font-size: 12px;
 }
+
+/* Settings for the equipe page*/
+.each-member {
+	padding-left: 35px !important;
+}
+
+.each-member a {
+	color: #0687ab;
+}
+
+.each-member h5 {
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
 	.ol-text {
@@ -166,8 +179,8 @@
 
 	.idb-main {
 		display: flex;
-		padding-left: 25px;
-		padding-right: 25px;
+		padding-left: 35px;
+		padding-right: 35px;
 	}
 
 	.idb-main div {
@@ -184,6 +197,10 @@
 		margin: auto;
 		font-size: 26px;
 	}
+
+	.each-esp {
+		text-align: justify;
+	}
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -197,8 +214,8 @@
 	}
 
 	.idb-main img {
-		width: 40%;
-		height: 40%;
+		width: 35%;
+		height: 35%;
 	}
 
 	.idb-main h3 {
@@ -208,6 +225,11 @@
 
 	.each-esp {
 		width: 49%;
+	}
+
+	.iceff-esp {
+		min-height: 285px;
+		padding: 10px 25px;
 	}
 }
 
