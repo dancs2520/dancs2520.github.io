@@ -1,8 +1,11 @@
-.iceff-text {
-	background-color: #008eba;
-	color: white;
-	padding: 15px 20px;
+
+.each-esp {
+	flex-direction: column;
 	text-align: justify;
+}
+
+.each-esp i {
+
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -11,6 +14,11 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+	.each-esp {
+		text-align: justify;
+		min-height: 205px;
+		flex-direction: row;
+	}
 }
 
 /* Large devices (desktops, 992px and up) */

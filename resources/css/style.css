@@ -13,6 +13,16 @@ body {
 	padding: 0px;
 }
 
+/* title to begin every page */ 
+.page-title {
+	border-bottom: 3px solid #e3e652;
+	text-align: center;
+	margin-top: 0px;
+	color: white;
+	padding: 30px 30px;
+	background-color: #373d5d;
+}
+
 /* header and navbar settings */
 header {
 	margin-bottom: 100px;
