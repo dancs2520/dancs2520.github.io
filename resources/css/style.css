@@ -1,295 +1,222 @@
-html {
-    font-size: 14px;
+body, html {
+	height: 100%;
+	margin: 0;
 }
 
 body {
 	font-family: 'Open Sans', sans-serif;
-	color: #373d5d;
-	line-height: 1.4;
-	background-color: #E8E9F3;
+	background-image: url(../images/bgapuka.jpg);
+	background-color: #83ccb1;
+	overflow: hidden;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-.no-pad {
-	padding: 0px;
-}
-
-/* title to begin every page */ 
-.page-title {
-	border-bottom: 3px solid #e3e652;
-	text-align: center;
-	margin-top: 0px;
-	color: white;
-	padding: 30px 30px;
-	background-color: #373d5d;
-}
-
-/* header and navbar settings */
-header {
-	margin-bottom: 100px;
-}
-
-.navbar {
-	border-bottom: 3px solid #e3e652;
-	min-height: 90px;
-}
-
-.navbar-brand {
-	margin-right: 0px;
-}
-
-.navbar-toggler {
-	margin-right: 14px;
-}
-
-.logo_name {
-	width: 78%;
-	max-width: 380px;
-	font-family: 'Yellowtail', cursive;
-	font-size: 1.6rem;
-}
-
-.logo {
+.modal-lg {
 	max-width: 100%;
-	max-height: 80px;
-}
-
-.nav-item {
-	font-size: 16px;
-}
-
-/* main pages' blocks settings*/
-.main-page {
-	padding: 0px;
-	width: 100%;
-}
-
-.row {
-	margin-left: 0px;
-	margin-right: 0px;
-}
-
-.col {
-	flex-basis: auto;
-	width: 100%;
-}
-
-.chamada {
-	border-top: 3px solid #e3e652;
-	border-bottom: 3px solid #e3e652;
-	margin-top: 0px;
-	color: white;
-	padding: 30px 30px;
-	background-color: #373d5d;
-}
-
-.chamada h1 {
-	font-size: 20px;
-	text-align: justify;
-}
-
-.destaques {
-	display: flex;
-	justify-content: space-between;
-	width: 100%;
-	min-height: 340px;
-}
-
-.each-dest {
-	width: 100%;
-	margin-top: 30px;
-	height: 375px;
-	transition: all 500ms;
-}
-
-.each-dest:hover, .each-dest:focus {
-	text-decoration: none;
-	transform: scale(1.03);
-}
-
-.each-dest img {
-	max-width: 100%;
-	height: auto;
-	vertical-align: middle;
-}
-
-.each-dest div {
-	width: 100%;
-	position: relative;
-	bottom: 65px;
-	display: flex;
-	justify-content: center;
-	padding: 15px;
-	background-color: #0687ab;
-	color: white;
-}
-
-.dest-span {
-	font-size: 16px;
-}
-
-/* footer settings */
-footer {
-	background-color: #373d5d;
-	width: 100%;
-	color: white;
-	margin-top: 30px;
-	border-top: 3px solid #e3e652;
-	padding: 30px 30px 20px 30px;
-}
-
-footer h7 {
-	font-size: 12px;
-}
-
-footer .col {
-	margin-top: 20px;
-}
-
-.emerg-but {
-	width: 245px;
-	height: 100px;
-	background-color: #c15354;
-	display: flex;
-	justify-content: space-around;
-	color: white;
-	padding: 15px;
-	margin: 0px auto;
-	border-radius: 5px;
-}
-
-.emerg-but:hover, .emerg-but:focus {
-	text-decoration: none;
-	background-color: #c14444;
-	color: white;
-}
-
-.emerg-text {
-	text-align: center;
-	margin-top: auto;
-	margin-bottom: auto;
-}
-
-.contato h6 {
-	color: white;
-	margin-top: 22px;
 }
 
 .modal-content {
-	color: #373d5d;
+	background-image: url(../images/parallax/layer0.png);
+	background-repeat: no-repeat;
+	overflow: hidden;
+	background-size: 100% 100%;
+	min-height: 560px;
+	max-height: 560px;
 }
-.modal-body h4 {
-	text-align: center;
-	font-size: 32px;
+
+.modal-body {
+	padding: 0px;
+	overflow:  hidden;
 }
+
+.modallayers img {
+	width: 170%;
+	position: relative;
+	top: 240px;
+	left: -185px;
+	overflow: hidden;
+}
+
+.birdlayer img {
+	-webkit-animation: birds 40s linear 0s infinite; /* Safari 4.0 - 8.0 */
+	animation: birds 40s linear 0s infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes birds {
+	0%	{left: 100px; top: 120px; opacity:0;}
+	5%	{opacity:1;} 
+	95%	{opacity:1;}
+	100%	{left: -900px; top: 140px; opacity:0;}
+}
+
+@keyframes birds {
+	0%	{left: 100px; top: 140px; opacity:0;}
+	5%	{opacity:1;} 
+	95%	{opacity:1;}
+	100%	{left: -900px; top: 160px; opacity:0;}
+}
+
+.treelayer img {
+	width: 180%;
+	left: -180px;
+}
+
+.modalbutton {
+	position: absolute;
+	top: 90px !important;
+	left: 0px !important;
+	font-family: 'Handlee', cursive;
+}
+
+.modalbutton h2 {
+	font-size: 22px;
+}
+
+.modalbutton img {
+	width: 50%;
+}
+
+.navbar-brand {
+	height: 90px;
+}
+
+.logoeditorial {
+	height: 100%;
+}
+
+.nav-link {
+	padding: 20px 25px !important;
+	margin: 10px 10px;
+	font-family: 'Handlee', cursive;
+	font-size: 24px;
+	font-weight: bold;
+	color: white;
+	border-radius: 20px;
+}
+
+.nav-link:hover {
+	font-style: none;
+	color: white;
+}
+
+.nl1 {
+	background-color: #80b728;
+	box-shadow: 3px 3px 3px rgba(128,183,40,0.5), -3px -3px 3px rgba(128,183,40,0.2);
+}
+
+.nl2 {
+	background-color: #8668b0;
+	box-shadow: 3px 3px 3px rgba(134,104,176,0.5), -3px -3px 3px rgba(134,104,176,0.2);
+}
+
+.nl3 {
+	background-color: #ffdf00;
+	box-shadow: 3px 3px 3px rgba(255,223,0,0.5), -3px -3px 3px rgba(255,223,0,0.2);
+}
+
+.nl4 {
+	background-color: #408fc7;
+	box-shadow: 3px 3px 3px rgba(64,143,199,0.5), -3px -3px 3px rgba(64,143,199,0.2);
+}
+
+.nl1:hover {
+	background-color: #639314;
+}
+
+.nl2:hover {
+	background-color: #674596;
+}
+
+.nl3:hover {
+	background-color: #C6AE00;
+}
+
+.nl4:hover {
+	background-color: #2179B7;
+}
+
+
+.carousel-item img {
+	border-radius: 20px;
+}
+
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { 
-	header {
-		margin-bottom: 106px;
-	}
-	.navbar-brand {
-		margin-right: 1rem;
-	}
+@media (min-width: 576px) {
 
-	.navbar-toggler {
-		margin-right: 0px;
-	}
-
-	.each-dest {
-		height: 540px;
-	}
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-	header {
-		margin-bottom: 90.83px;
-	}
-	
-	.logo_name {
-		width: 40%;
-		
-	}
-
-	.col {
-		width: 32%;
+	.modal-content {
+		background-image: url(../images/parallax/layer0.png);
+		background-repeat: no-repeat;
+		overflow: hidden;
+		background-size: 100% 100%;
+		min-height: 615px;
+		max-height: 615px;
 	}
 
-	.each-dest {
-		width: 30%;
+
+	.modallayers img {
+		width: 101%;
+		position: relative;
+		top: -170px;
+		overflow: hidden;
 	}
 
-	.destaques {
-		min-height: 290px;
+
+	/* Safari 4.0 - 8.0 */
+	@-webkit-keyframes birds {
+		0%	{left: 100px; top: -180px; opacity:0;}
+		5%	{opacity:1;} 
+		95%	{opacity:1;}
+		100%	{left: -900px; top: -100px; opacity:0;}
 	}
 
-	.each-dest {
-		height: 250px;
+	@keyframes birds {
+		0%	{left: 100px; top: -180px; opacity:0;}
+		5%	{opacity:1;} 
+		95%	{opacity:1;}
+		100%	{left: -900px; top: -100px; opacity:0;}
 	}
 
-	footer .col {
-		margin-top: 0px;
+	.treelayer img {
+		width: 105%;
+		left: -27px;
 	}
 
-	.info-box {
-		justify-content: space-between;
-	}
-
-	.info-pic {
-		width: 48%;
-		height: 380px;
-	}
-
-	.info-tb {
-		padding: 30px 35px;
-	}
-
-	.info-text {
+	.modalbutton {
+		position: absolute;
+		top: 90px !important;
+		left: 0px !important;
+		font-family: 'Handlee', cursive;
 		font-size: 24px;
 	}
+
+	.modalbutton h2 {
+		font-size: 30px;
+	}
+
+	.modalbutton img {
+		width: 50%;
+	}
+
+	
 
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-	header {
-		margin-bottom: 125px;
-	}
 
-	.navbar {
-		height: 125px;
-	}
-
-	.logo_name {
-		height: 110px;
-		width: auto;
-	}
-
-	.logo {
-		max-height: 98%;
-	}
-
-	.chamada {
-		border-top: 3px solid #e3e652;
-		border-bottom: 3px solid #e3e652;
-		margin-top: 0px;
-		color: white;
-		padding: 30px 110px;
-		background-color: #373d5d;
-	}
-
-	.chamada h1 {
-		font-size: 30px;
-	}
-
-	.destaques {
-		min-height: 375px;
-	}
 }
-
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
 
-
-
 }
+
+
+
